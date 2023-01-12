@@ -13,7 +13,7 @@ pipeline{
       steps{
        sh '''
        #!/bin/bash
-       flutter build apk 
+       flutter build apk --debug
        '''
       }
     }
